@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СРС №7.1 — Каталог товаров</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="student-template.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Каталог товаров</h1>
+    <p class="lead">СРС №7.1: данные → массив объектов → DOM.</p>
+
+    <section class="panel">
+      <h2>Товары</h2>
+      <div id="catalog" class="catalog"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Статистика каталога</h2>
+      <div class="stats">
+        <div class="stat"><strong>Всего товаров</strong><span id="product-count">—</span></div>
+        <div class="stat"><strong>В наличии</strong><span id="available-count">—</span></div>
+        <div class="stat"><strong>Сумма цен</strong><span id="total-price">—</span></div>
+        <div class="stat"><strong>Самый дорогой</strong><span id="most-expensive">—</span></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Количество по категориям</h2>
+      <ul id="category-stats"></ul>
+    </section>
+  </main>
+</body>
+</html>
